@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testlayer.LoginModuleTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Testlayer.LoginModuleTest">
+        <methods>
+          <include name="login_TC"/>
+          <include name="close"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- Testlayer.LoginModuleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Testlayer.LoginModuleTest] -->
